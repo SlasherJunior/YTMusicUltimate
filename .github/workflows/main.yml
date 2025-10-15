@@ -120,5 +120,4 @@ jobs:
       - name: Output Release URL
         run: |
           echo "::notice::Release available at: https://github.com/${{ github.repository }}/releases"
-          ADDITIONAL_CFLAGS += -Wno-error=vla-cxx-extension
-          ADDITIONAL_CXXFLAGS += -Wno-error=vla-cxx-extension
+          
